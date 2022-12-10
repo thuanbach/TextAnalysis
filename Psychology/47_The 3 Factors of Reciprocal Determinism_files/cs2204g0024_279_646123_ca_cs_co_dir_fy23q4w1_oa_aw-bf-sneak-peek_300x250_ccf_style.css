@@ -1,0 +1,488 @@
+/*-------------------------------------
+  Reset
+---------------------------------------*/
+
+/******Basic settings**********/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+img{
+  border: 0px;
+}
+a{
+  text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif; color: #FFFFFF;
+}
+sup {
+  vertical-align: 5px;
+  line-height: 0;
+}
+.font-preloader{
+  font-family:'Roboto';
+  font-weight:300;
+  visibility:hidden;
+  width:0;
+  height:0;
+}
+#frame_one, #frame_two,#frame_three,#frame_four {
+  width: 100%;
+  height: 100%;
+}
+
+/*-------------------------------------
+  Layout
+---------------------------------------*/
+
+#ad {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+  font-size: 4vh;
+  position: absolute;
+}
+
+#banner {
+  position: relative;
+  background: #ffffff;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  visibility: hidden; 
+  border: 1px solid #444444;
+  -webkit-box-sizing: border-box;  
+          box-sizing: border-box;
+}
+
+
+#clickTAG {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+/*-------------------------------------
+  Frame One frame duration: 3s
+---------------------------------------*/
+.f1-textcont{
+    position: absolute;
+    width: 20em;
+    height: 9.6em;
+    left: 7%;
+    top: 4.4%;
+}
+.title1-1{
+position: absolute;
+    font-size: 1.43em;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: left;
+    color: #ff0136;
+    width: 100%;
+    top: 0;
+    left: -8px;
+}
+
+.title1-2 {
+    position: absolute;
+    font-size: 2.7em;
+    line-height: 1em;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #444444;
+    width: 100%;
+    left: -4.5%;
+    bottom: 24%;
+}
+
+.text3-f1, .text3-f5{
+position: absolute;
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: left;
+    color: #444;
+    width: 100%;
+    top: 35.5%;
+    left: 12%;  
+}
+
+.dot {
+  height: .75em;
+  width: .75em;
+  background-color: #ff0136;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.cta-1, .cta-2 {
+position: absolute;
+    color: #444;
+    border: #444 0.1em solid;
+    text-align: center;
+    right: 3.33%;
+    bottom: 4%;
+    display: block;
+    z-index: 99;
+    padding: 0.5em 1.2em;
+    font-size: 1.4em;
+    line-height: 1em;
+    font-weight: 700;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.dell-logo {
+position: absolute;
+    width: 3.2em;
+    height: auto;
+    right: 3.33%;
+    top: 4.6%;
+    z-index: 9;
+}
+
+.pro-f1{
+    position: absolute;
+    width: 21.2em;
+    height: auto;
+    bottom: 15%;
+    left: 66.5%;
+    transform: translateX(-50%); 
+}
+.funding-box{position: absolute;width: 18em;height: 6em;left: 4%;bottom: 4.8%;z-index: 9;}
+.funding-logo{
+  position: absolute;
+  width: 5em;
+  height: auto;
+  left: 4px;
+  bottom: 0;
+  z-index: 9;
+}
+.funding-text{
+   position: absolute;
+    font-size: 12px;
+    color: #444;
+    bottom: -2%;
+    left: 40%;
+    z-index: 9;
+}
+.funding-text sup{
+  font-size: .7em;
+  vertical-align: .5em;
+
+}
+/*-------------------------------------
+  Frame two  frame duration: 3s
+---------------------------------------*/
+ .f2-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 101%;
+  object-fit: cover;
+  object-position: 50% 25%; 
+}
+.cta-2{
+  color: #fff;
+  border: #fff 1px solid;
+}
+
+
+/*-------------------------------------
+  Frame Three frame duration: 3s
+---------------------------------------*/
+.upto {
+       position: absolute;
+    font-size: 15px;
+    line-height: .95em;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: left;
+    color: #444444;
+    right: 4.33%;
+    top: 1.6%;
+    width: 42%;
+}
+.upto span{
+    color: #ff0136;
+}
+.f3-contain{
+    position: absolute;
+    width: 32em;
+    height: 16.8em;
+    top: 9.2%;
+    left: 50%;
+     transform: translateX(-50%); 
+}
+.pro-f3 {
+    position: absolute;
+    width: 21.1em;
+    height: auto;
+    top: 0;
+    left: 41%;
+    transform: translateX(-50%);
+}
+.vio-boxf3 {
+        position: absolute;
+    width: 8em;
+    height: 2.4em;
+    overflow: hidden;
+    top: 45%;
+    right: 15%;
+    transform: translateY(-50%);
+}
+ .viof3{
+   position: absolute;
+    top: 0;
+    left: 23px;
+    width: 2.6em;
+    height: auto;
+}
+.vio-textblockf3 {
+           width: 9em;
+    position: relative;
+    left: 63%;
+    height: auto;
+    overflow: hidden;
+    top: 2px;
+}
+.vio_textf3 {
+        position: relative;
+    top: 0em;
+    left: 0em;
+    width: 5em;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.1em;
+    letter-spacing: 0.1em;
+    color: #444;
+    font-weight: 900;
+}
+
+.product-price{
+    position: absolute;
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 700;
+    text-align: right;
+    color: #444;
+    bottom: 18.5%;
+    right: 3.33%;
+}
+.product-price span{
+  font-size: .9em;
+  font-weight: 400; 
+}
+
+/*-------------------------------------
+  Frame Four frame duration: 3s
+---------------------------------------*/
+
+.f4-contain {
+    position: absolute;
+    width: 30em;
+    height: 15.6em;
+    top: 11.2%;
+    left: 32%;
+    transform: translateX(-50%);
+}
+
+.pro-f4 {
+       position: absolute;
+    width: 27.2em;
+    height: auto;
+    top: -24%;
+    left: 10.5%;
+
+}
+
+.text-f4{
+       position: absolute;
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    color: #444;
+    bottom: 16.5%;
+    left: 9.33%;
+}
+
+.vio-boxf4 {
+        position: absolute;
+    width: 8em;
+    height: 2.4em;
+    overflow: hidden;
+    top: 16%;
+    right: -1%;
+    transform: translateY(-50%);
+}
+ .viof4{
+   position: absolute;
+    top: 0;
+    left: 2px;
+    width: 2.6em;
+    height: auto;
+}
+.vio-textblockf4 {
+        width: 6em;
+    position: relative;
+    left: 37%;
+    height: auto;
+    overflow: hidden;
+    top: 2px;
+}
+.vio_textf4 {
+    position: relative;
+    top: 0em;
+    left: 0em;
+    width: 5em;
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.1em;
+    letter-spacing: 0.1em;
+    color: #444;
+    font-weight: 900;
+}
+
+/*-------------------------------------
+  Frame Five frame duration: 3s
+---------------------------------------*/
+.title5-2 {
+    position: absolute;
+    font-size: 2.6em;
+    line-height: 1em;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #444444;
+    width: 100%;
+    left: -13.5%;
+    top: 13%;
+}
+.pro-f5 {
+        position: absolute;
+    width: 20.7em;
+    height: auto;
+    bottom: 20%;
+    left: 46%;
+    transform: translateX(-50%);
+}
+.bagde-5 {
+   position: absolute;
+    width: 20em;
+    font-size: 1.4em;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff0136;
+    top: 5.2%;
+    left: 24%;
+    transform: translateX(-50%);
+}
+.text3-f5{
+left: 4%;
+}
+
+.funding-logo5{
+    position: absolute;
+    width: 5em;
+    height: auto;
+    left: 5%;
+    bottom: 5%;
+  z-index: 9;
+}
+
+
+/*Roll over*/
+#roll-cta {
+    position: absolute;
+    right: 36.66%;
+    bottom: 4%;
+    z-index: 99999;
+    width: 6.6em;
+    height: 1.2em;
+}
+#legal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:#fff;
+  top:-100em;
+  z-index: 9999;
+}
+#legal-text {
+ position: absolute;
+    color: #808080;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    line-height: 1.2em;
+    text-align: left;
+    padding: 9em 1.2em;
+}
+
+#legal-text sup{
+  font-size: .7em;
+  vertical-align: .3em;
+}
+#rolltext{
+        font-size: .8em;
+    position: absolute;
+    color: #444;
+    z-index: 9;
+    right: 41.66%;
+    font-weight: 400;
+    bottom: 4%;
+}
+
+
+.product-price1 {
+	 position: absolute;
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 700;
+    text-align: right;
+    color: #444;
+    bottom: 18.5%;
+    right: 3.33%;
+}
+.product-price1 span{
+  font-size: .9em;
+  font-weight: 400; 
+}

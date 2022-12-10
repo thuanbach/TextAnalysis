@@ -1,0 +1,47 @@
+
+<!-- saved from url=(0175)file:///Users/thuanbachvan/ComputerScience/CS716/Project/Psychology/15_Types%20of%20Motives_%20Biological,%20Social%20and%20Personal%20Motives%20_%20Psychology_files/sync.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script>
+    const partners = [{url: '<script type="text/javascript" src="https://sync.search.spotxchange.com/partner?gdpr=0&adv_id=8532&us_privacy=1---&redir=https%3A%2F%2Fsync-t1.taboola.com%2Fsg%2Fspotx-rtb-network%2F1%2Frtb-h%3Ftaboola_hm%3D%24SPOTX_USER_ID%26orig%3Dvideo%26us_privacy%3D1---gdpr%3D0%26"></scr' + 'ipt>'},
+{url: '<iframe width="0" height="0" src="https://us-u.openx.net/w/1.0/cm?gdpr=0&us_privacy=1---&id=37f45540-fa88-4005-bf73-8a7ac39467e3&r=https%3A%2F%2Fsync-t1.taboola.com%2Fsg%2Fopenxrtb-network%2F1%2Frtb-h%2F%3Fgdpr%3D0%26us_privacy%3D1---%26orig%3Dvideo%26taboola_hm%3D"></iframe>'},
+{url: '<img width="0" height="0" src="https://sync.technoratimedia.com/services?srv=cs&pid=70&cb=https%3A%2F%2Fsync.taboola.com%2Fsg%2Fsynacorrtb-network%2F1%2Frtb-h%3Ftaboola_hm%3D%5BUSER_ID%5D"></img>'},
+{url: '<script type="text/javascript" src="https://sync.1rx.io/usersync2/rmpssp?sub=taboola&redir=https%3A%2F%2Fsync.taboola.com%2Fsg%unrulyrtbhv-network%2Frtb-h%2F%3Ftaboola_hm%3D%5BRX_UUID%5Dhttp%3A%2F%2Ftrc.taboola.com%2Fsg%2Funrulyrtbhv-network%2F1%2Frtb-h%2F%3Ftaboola_hm%3D%24%7BBUYER_ID%7D"></scr' + 'ipt>'},
+{url: '<script type="text/javascript" src="https://rtd-tm.everesttech.net/upi/pid/1491?gdpr=0&us_privacy=1---&redir=https%3A%2F%2Fsync.taboola.com%2Fsg%2Fadobe-network%2F1%2Frtb-h%2F%3Ftaboola_hm%3D%24%7BTM_USER_ID%7D%26orig%3Dvideo%26us_privacy%3D1---"></scr' + 'ipt>'},
+{url: '<img width="0" height="0" src="https://bttrack.com/pixel/cookiesync?gdpr=0&us_privacy=1---&source=14b8c562-d12b-418b-b680-ad517d5839ec"></img>'},
+{url: '<script type="text/javascript" src="https://csync.loopme.me/?gdpr=0&us_privacy=1---&redirect=https%3A%2F%2Fsync.taboola.com%2Fsg%2Floopme-rtb-network%2F1%2Frtb-h%2F%3Ftaboola_hm%3D%7Bdevice_id%7D%26orig%3Dvideo%26us_privacy%3D1---"></scr' + 'ipt>'}];
+
+    const MAX_SIMUL = 3 || 1;
+    const WAIT_MS = 5000;
+
+    window.onload = run.bind(this, 0);
+
+    function run(current) {
+        const remaining = partners.length - current;
+        let html = '<html><head></head><body>';
+        for (let i = 0; i < MAX_SIMUL && i < remaining; ++i) {
+            const partner = partners[current + i];
+            const url = partner.url;
+
+            html += url;
+        }
+
+        html += '</body></html>';
+
+        const iframe = document.createElement('iframe');
+
+        iframe.srcdoc = html;
+        iframe.height = 0;
+        iframe.width = 0;
+
+        document.body.appendChild(iframe);
+
+        if (MAX_SIMUL < remaining) {
+            setTimeout(run.bind(this, current + MAX_SIMUL), WAIT_MS);
+        }
+    }
+</script></head><body data-new-gr-c-s-check-loaded="14.1085.0" data-gr-ext-installed=""><iframe height="0" width="0" src="./saved_resource(26).html"></iframe><div id="highlighter--hover-tools" style="display: none;">
+    <div id="highlighter--hover-tools--container">
+        <div class="highlighter--icon highlighter--icon-copy" title="Copy"></div>
+        <div class="highlighter--icon highlighter--icon-change-color" title="Change Color"></div>
+        <div class="highlighter--icon highlighter--icon-delete" title="Delete"></div>
+    </div>
+</div><iframe height="0" width="0" src="./saved_resource(27).html"></iframe><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><iframe height="0" width="0" src="./saved_resource(28).html"></iframe><iframe height="0" width="0" src="./saved_resource(29).html"></iframe><iframe height="0" width="0" src="./saved_resource(30).html"></iframe><iframe height="0" width="0" src="./saved_resource(31).html"></iframe><iframe height="0" width="0" src="./saved_resource(32).html"></iframe><iframe height="0" width="0" src="./saved_resource(33).html"></iframe><iframe height="0" width="0" src="./saved_resource(34).html"></iframe><iframe height="0" width="0" src="./saved_resource(35).html"></iframe><iframe height="0" width="0" src="./saved_resource(36).html"></iframe></body></html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!-- saved from url=(0138)https://s0.2mdn.net/sadbundle/12830140265401889635/cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="ad.size" content="width=300,height=250">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dell</title>	
+<link rel="stylesheet" href="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_style.css">	
+<link rel="stylesheet" href="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_media_query.css">
+<link href="./css" rel="stylesheet">
+
+<!-- ClickTag -->
+<script type="text/javascript">
+  var clickTag = "";
+</script> 
+
+<script type="text/javascript">
+    
+  (function() {
+    var MAX_URL_PARAM_LENGTH = 34;
+    var CLICK_X_URL_KEY = 'nx';
+    var CLICK_Y_URL_KEY = 'ny';
+    var CREATIVE_DIMENSIONS_KEY = 'dim';
+    var AD_URL_PARAM = '&adurl=';
+
+    var relegateNavigation = '';
+    var urlParamMap = {};
+
+    urlParamMap[CLICK_X_URL_KEY] = null;
+    urlParamMap[CLICK_Y_URL_KEY] = null;
+    urlParamMap[CREATIVE_DIMENSIONS_KEY] = null;
+
+    var handleClickTagMessage = function(e) {
+      try {
+        var eventData = JSON.parse(e.data);
+      } catch (err) {
+        return;
+      }
+      if (eventData.isInitClickTag) {
+        if (eventData.clickTags) {
+          for (var i = 0; i < eventData.clickTags.length; i++) {
+            var clkTag = eventData.clickTags[i];
+            window[clkTag.name] = clkTag.url;
+          }
+        } else if (eventData.clickTag) {
+          window.clickTag = eventData.clickTag;
+        }
+        relegateNavigation = eventData.relegateNavigation;
+      }
+    };
+
+    var storeClickCoordinates = function(e) {
+      urlParamMap[CLICK_X_URL_KEY] = Math.round(e.clientX);
+      urlParamMap[CLICK_Y_URL_KEY] = Math.round(e.clientY);
+    };
+
+    var getCreativeDimensions = function() {
+      return window.innerWidth + 'x' + window.innerHeight;
+    }
+
+    var getExitClickParams = function(e) {
+      urlParamMap[CREATIVE_DIMENSIONS_KEY] = getCreativeDimensions();
+
+      var exitParams = '';
+      for (var key in urlParamMap) {
+        exitParams += '&' + key + '=';
+        if (urlParamMap[key] !== null) {
+          exitParams += urlParamMap[key];
+        }
+      }
+      return exitParams;
+    }
+
+    var appendExitClickParams = function(url) {
+      var adUrlIndex = url.toLowerCase().indexOf(AD_URL_PARAM);
+      var paramsToBeAdded = getExitClickParams();
+      if (adUrlIndex > -1 && paramsToBeAdded.length <= MAX_URL_PARAM_LENGTH) {
+        url = url.substr(0, adUrlIndex) + paramsToBeAdded +
+          url.substr(adUrlIndex);
+      };
+      return url;
+    };
+
+    if (open.call) {
+      window.open = function(open) {
+        return function(url, name, features) {
+          url = appendExitClickParams(url);
+          if (relegateNavigation === 'parent') {
+            var message = {'clickTag': url, 'isPostClickTag': true};
+            parent.postMessage(JSON.stringify(message), '*');
+          } else {
+            var args = [url, name];
+            if (features) {
+              args.push(features);
+            }
+            open.apply(window, args);
+          }
+        };
+      }(window.open);
+    }
+
+    if (window.addEventListener) {
+      window.addEventListener(
+          'message', handleClickTagMessage, false);
+      window.addEventListener('mousedown', storeClickCoordinates, true);
+    } else {
+      window.attachEvent('onmessage', handleClickTagMessage);
+    }
+  })();
+    
+  </script></head>
+<body data-new-gr-c-s-check-loaded="14.1085.0" data-gr-ext-installed="">
+  <div id="ad">
+    <div id="banner" style="visibility: visible;">
+
+     <!-- Fallback & clickTag -->
+	  <a href="javascript:void(0);" onclick="window.open(window.clickTag)" id="clickTAG">
+     <!--[if lte IE 9]>
+       <div class="ie-fallback"><img src="cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_index.jpg" alt="" title="" width="300" height="250"></div>
+    <![endif]--> 
+	  </a>
+
+      <!-- Frame One-->
+      <div id="frame_one">
+
+		<div class="text3-f1 title1" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);">SNEAK PEEK <span class="dot"></span>&nbsp;EARLY DEALS</div>
+		<img src="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_dell_logo.png" alt="" class="dell-logo" style="opacity: 0;">
+		<img src="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_pro_f1.png" alt="" class="pro-f1" style="opacity: 0; transform: matrix(1, 0, 0, 1, -106, 0);">         
+		 <div class="f1-textcont">
+        <div class="title1-1 title1" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);">black friday</div>
+	    <div class="title1-2 title1" style="opacity: 0; transform: matrix(1, 0, 0, 1, 0, 0);">THE JOY OF NEW<br> GAMING GEAR</div>
+		</div> 
+        <div class="funding-box" style="opacity: 0;">
+		<img src="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_funding.png" alt="" class="funding-logo">
+          <div class="funding-text">Intel<sup>®</sup> Core™ i7 processor</div>	  
+        </div> 		  
+		<div class="cta-1" style="opacity: 0;">SHOP NOW</div>
+      </div>
+
+      <!-- Frame Two-->
+      <div id="frame_two">
+		   <img src="./cs2204g0024-279-621953-gl-cs-co-fy23q3-oa-mse-html-aw-blackfriday-300x250_intel-bg.jpg" alt="" class="f2-img" style="opacity: 0.929244;">
+		   <div class="cta-2" style="opacity: 0.929244;">SHOP NOW</div>
+		  
+	   </div>
+
+      <!-- Frame Three-->
+      <div id="frame_three"> 
+		   <div class="upto" style="opacity: 0; transform: translate(25%, 0%) matrix(1, 0, 0, 1, 0, 0);">UP TO<br><span> $350 OFF<br> SELECT SYSTEMS</span></div>
+			<div class="f3-contain">
+			<img src="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_pro_f3.png" alt="" class="pro-f3" style="opacity: 0; transform: translate(25%, 0%) matrix(1, 0, 0, 1, -105.5, 0);">		
+        	</div>
+		  <div class="vio-boxf3">
+         		 <img src="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_viof3.png" alt="" class="viof3" style="transform: translate(0%, -150%) matrix(1, 0, 0, 1, 0, 0);">
+         	 	 <div class="vio-textblockf3">
+           		 <div class="vio_textf3" style="transform: translate(0%, -100%) matrix(1, 0, 0, 1, 0, 0);">$300<br>OFF</div>
+          		</div>
+        	 </div>
+		    <div class="product-price" style="opacity: 0;">$2,099.99<br><span>Alienware m15 R7</span></div>
+
+      </div>
+		
+      <!-- Frame Four-->
+      <div id="frame_four">
+		  <div class="title4-1 title4" style="opacity: 0;">Lorem ipsum dolor sit amet<br>dolor ipsum amet.</div>
+		  <div class="f4-contain">  
+			<img src="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_pro_f4.png" alt="" class="pro-f4" style="opacity: 0; transform: translate(25%, 0%) matrix(1, 0, 0, 1, 0, 0);">
+			 <div class="vio-boxf4">
+         		 <img src="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_viof4.png" alt="" class="viof4" style="transform: translate(-150%, 0%) matrix(1, 0, 0, 1, 0, 0);">
+         	 	 <div class="vio-textblockf4">
+           		 <div class="vio_textf4" style="transform: translate(-100%, 0%) matrix(1, 0, 0, 1, 0, 0);">$100<br>OFF</div>
+          		</div>
+        	 </div>
+		</div>
+		  <div class="product-price1" style="opacity: 0;">$1,399.99<br><span>Alienware Aurora R13</span></div>
+		  	    <div class="text-f4 title4" style="opacity: 0;">Victory is yours with limited-quantity<br>&nbsp;deals, plus free shipping. </div>
+      </div>
+
+		
+
+      <!-- Frame Five-->
+      <div id="frame_five">
+		  		<img src="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_pro_f5.png" alt="" class="pro-f5" style="opacity: 0; transform: translate(25%, 0%) matrix(1, 0, 0, 1, -103.5, 0);">
+		 		<div class="bagde-5 title5" style="opacity: 0; transform: translate(-25%, 0%) matrix(1, 0, 0, 1, -140, 0);">black friday</div><br>
+	    <div class="title5-2 title5" style="opacity: 0; transform: translate(-25%, 0%) matrix(1, 0, 0, 1, 0, 0);">THE JOY OF NEW<br> GAMING GEAR</div>
+    </div>
+
+		<div class="text3-f5 title5" style="opacity: 0; transform: translate(-25%, 0%) matrix(1, 0, 0, 1, 0, 0);"><span class="dot"></span>&nbsp; UP TO $350 OFF SELECT SYSTEMS</div>
+        
+	  	<img src="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_funding.png" alt="" class="funding-logo5 title5 " style="opacity: 0; transform: translate(-25%, 0%) matrix(1, 0, 0, 1, 0, 0);">
+		
+      <!--START: cta-handler-->
+      <div id="roll-cta" style="opacity: 0; transform: translate(-300%, 0%) matrix(1, 0, 0, 1, 0, 0);"></div>
+      <div id="rolltext" style="opacity: 0;">Legal Rollover</div>
+      <div id="cta-handler">
+        <div id="legal">
+          <div id="legal-text" style="opacity: 0;">
+*Offers available only in Canada 9/9/2022 - 9/25/2022. Savings calculated on regular price offered by Dell. Prices do not include applicable taxes, shipping, environmental, and other surcharges. Offers not combinable with any other offers or discounts. Certain products may be limited in availability. Dell is not responsible for typography, pricing or other errors. Dell reserves right to cancel orders arising from any errors or limit quantities.
+          </div>
+        </div>
+      </div>
+      <!--END: cta-handler-->  
+      </div> <!-- banner -->
+ </div>
+
+<script src="./tweenmax_1.18.0_499ba64a23378545748ff12d372e59e9_min.js"></script>
+<script type="text/javascript" src="./cs2204g0024_279_646123_ca_cs_co_dir_fy23q4w1_oa_aw-bf-sneak-peek_300x250_ccf_custom.js" charset="UTF-8"></script>
+
+
+<div id="highlighter--hover-tools" style="display: none;">
+    <div id="highlighter--hover-tools--container">
+        <div class="highlighter--icon highlighter--icon-copy" title="Copy"></div>
+        <div class="highlighter--icon highlighter--icon-change-color" title="Change Color"></div>
+        <div class="highlighter--icon highlighter--icon-delete" title="Delete"></div>
+    </div>
+</div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

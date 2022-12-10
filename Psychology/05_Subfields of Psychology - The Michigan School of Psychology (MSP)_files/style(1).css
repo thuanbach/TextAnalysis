@@ -1,0 +1,48 @@
+/*
+Theme Name:     Valorous Circle's Elementor Child Theme
+Theme URI:	http://valorouswebdesign.com/
+Description:    A child theme for our Elementor Theme.
+Author:         Valorous Circle LLC
+Template:       VC-Elem
+Version:	1.0
+Site Name: VC-Elem-child
+*/
+
+/*=== This CSS is the root styling for the Child Theme. Please use main.css for project-specific edits. ===*/
+
+::selection {
+  color: #fff;
+}
+
+/*
+
+                            .',:::::,..
+                        .,okKNWMMMMMWN0d:.
+                      .l0NNK0O0KXNMMMMMMWKl.
+                    'dOOkkkxkkxxddokXMMMMMWk'
+                  .cdkkOKNMMMMMMMWOl:kNMMMMMO.
+                 .cxxdoc;;;cdKWMMMMWk,lNMMMMWd.
+                .cl:.        .dNMMMMMk,dWMMMMK,
+               .,'             oXWMMMWl;KMMMMWl  ..',.
+                               'lOMMMMk,xMMMMMo    .;lxdc'
+    .;clool:'                   .dMMMMO,dMMMMMo       ,kWNOl.
+  ;dxx0NMMMMNOc.                .oMMMMO,xMMMMWl        .xWMMXd.
+.oNd.  ,dXMMMMW0:               .dMMMMx;OMMMMN:         ;XMMMWO.
+:NNc     'kWMMMMNd.            .:kMMMWo:XMMMM0'         :NMMMMWo
+cNMO.     .lXMMMMWk.           ;OXMMMX:oWMMMMd         'OMMMMMWo
+.xWW0:.     ;KMMMMWO'         .xWMMMMd;OMMMMX;       .cKMMMMMMO.
+ .dNMW0o,.   ,0MMMMWO'        :XMMMMK;lWMMMWd.    .,l0WMMMMMNk.
+   ,dXWMN0dc,.;0MMMMWk.      ,0MMMMNc;KMMMM0, .,cd0NMMMMMMNk:.
+     .:x0NMMWX0XWMMMMWk'.   ,0MMMMNo;OMMMMMKkOXWMMMMMMMNOo,
+        .'cok0NWMMMMMMWX00OOXMMMMMWKXWMMMMMMMMMMMMWKOdc'
+             ..,:ldkO00KXXNWWWMMMMMMMMWWWNNK0Oxdl:,.
+          .        :OOOOOOOOOklldk00000x:'...
+         .:;       .dWMMMMMWOcckXNMWWWO,
+          ,kl.      .xWMWKxllkNMMMMMXo.
+           ;0Oc.     .oxood0WMMMMMNx'
+            ,OWKxoc:clxOXWMMMMWKkd'
+             .c0WMMMMMMMMMMWKx:.
+               .,lxO000Oxoc,.
+                     .
+
+*/

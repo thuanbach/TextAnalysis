@@ -1,0 +1,14 @@
+/*Portrait resize */
+@media only screen and (orientation: portrait){
+    #ad{
+        font-size: 3.33vw;
+    }
+}
+
+/* Master > resize */
+@media only screen and (min-width: 320px) and (orientation: landscape)  {
+	
+.pro-f1{
+    bottom: 17%;
+}
+}

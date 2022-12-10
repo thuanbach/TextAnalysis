@@ -1,0 +1,38 @@
+
+var ftGUID_4373896="50447329F0EB4B";
+var ftConfID_4373896="0";
+var ftParams_4373896="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.verywellmind.com%2Fwhat-is-reciprocal-determinism-2795907&cachebuster=322376.57168267074";
+var ftKeyword_4373896="";
+var ftCustom_4373896="";
+var ftSection_4373896="";
+var ftSegment_4373896="aba0,aig8,aig6,afr5,aiia,xo9,u6h,aixc,aidp,ai1q,uei,uei3000032178,xjr,afk0,ai4f,ai4fus571r1vwebhjnvszrq9q1vw,ajc9,xju,afk8,aep8,ajh6,aaa,s3i,ajv1,y41_32";
+var ftSegmentList_4373896=[{s:'aba0'},{s:'aig8'},{s:'aig6'},{s:'afr5'},{s:'aiia'},{s:'xo9'},{s:'u6h',t:52000000},{s:'aixc'},{s:'aidp'},{s:'ai1q'},{s:'uei'},{m:'uei_v',s:'uei3000032178'},{s:'xjr'},{s:'afk0'},{s:'ai4f',t:52580000},{m:'f4ai_pv',s:'ai4fus571r1vwebhjnvszrq9q1vw',t:52580000},{s:'ajc9'},{s:'xju'},{s:'afk8'},{s:'aep8'},{s:'ajh6'},{s:'aaa'},{m:'dlldvus',s:'s3i',t:53360000},{s:'ajv1'},{m:'c14416_journals',s:'y41_32'}];
+var ftRuleMatch_4373896="0";
+var ftTimestamp_4373896="1667105919";
+var ftGeoC2_4373896="ca";
+var ftGeoState_4373896="sk";
+var ftGeoCity_4373896="regina";
+var ftISP_4373896="access communications co-operative limited";
+var ftSpeed_4373896="broadband";
+var ftDMA_4373896="124705";
+var ftLong_4373896="-104.61";
+var ftLat_4373896="50.49";
+var ftPostal_4373896="s4r 0a1";
+var ftTimeZone_4373896="-600";
+var ftMobileCarrier_4373896="";
+var ftImp4373896 = {};
+ftImp4373896.privacy = "x";
+ftImp4373896.guidAge = "372";
+ftImp4373896.impID = "2E8EC4C4-48C6-4CCA-BC1B-11D2722EF099";
+ftImp4373896.duid = "FT:50447329F0EB4B";
+
+ftImp4373896.ft_tpplid = "";
+ftImp4373896.ft_c = {};
+ftImp4373896.gdpr = "";
+ftImp4373896.gdpr_consent = "";
+ftImp4373896.gdpr_pd = "";
+ftImp4373896.oob_consent = "";
+ftImp4373896.gdprStoredConsent = "";
+ftImp4373896.us_privacy = "";
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/437/4373896/3873398/js/j-4373896-3873398.js" id="ftscript_m4373896" name="ftscript_m4373896"></scr'+'ipt>');

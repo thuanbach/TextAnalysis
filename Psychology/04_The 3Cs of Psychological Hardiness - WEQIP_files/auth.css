@@ -1,0 +1,5 @@
+.svq-login-result,
+.svq-register-result,
+.svq-forgot-result {
+  display: none;
+}

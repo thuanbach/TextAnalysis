@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="23.773px" height="23.775px" viewBox="0 0 23.773 23.775" style="enable-background:new 0 0 23.773 23.775;"
+	 xml:space="preserve">
+<g id="Profile_Icon">
+	<g>
+		<g>
+			
+				<circle style="fill:none;stroke:#78889D;stroke-width:1.6;stroke-linejoin:round;stroke-miterlimit:10;" cx="11.887" cy="11.888" r="11.087"/>
+			<g>
+				<defs>
+					<path id="SVGID_1_" d="M9.961,11.675h3.51c2.077,0,3.762,1.683,3.762,3.761l0,0v1.754c0,1.108-0.897,2.006-2.006,2.006H8.206
+						c-1.107,0-2.006-0.897-2.006-2.006v-1.754C6.2,13.358,7.884,11.675,9.961,11.675z"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+				</clipPath>
+				
+					<use xlink:href="#SVGID_1_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#78889D;stroke-width:1.6;stroke-miterlimit:10;"/>
+			</g>
+			<g>
+				<defs>
+					<path id="SVGID_3_" d="M14.224,14.684h1.003c0.276,0,0.502,0.225,0.502,0.503c0,0.275-0.226,0.501-0.502,0.501h-1.003
+						c-0.277,0-0.502-0.226-0.502-0.501C13.722,14.908,13.946,14.684,14.224,14.684z"/>
+				</defs>
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:#78889D;"/>
+				<clipPath id="SVGID_4_">
+					<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+				</clipPath>
+			</g>
+			<g>
+				<defs>
+					<polygon id="SVGID_5_" points="10.212,11.911 13.221,11.911 13.221,12.679 11.716,15.187 10.212,12.679 					"/>
+				</defs>
+				<use xlink:href="#SVGID_5_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;"/>
+				<clipPath id="SVGID_6_">
+					<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+				</clipPath>
+				
+					<use xlink:href="#SVGID_5_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#78889D;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;"/>
+			</g>
+			
+				<circle style="fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#78889D;stroke-width:1.6;stroke-miterlimit:10;" cx="11.717" cy="7.664" r="4.168"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

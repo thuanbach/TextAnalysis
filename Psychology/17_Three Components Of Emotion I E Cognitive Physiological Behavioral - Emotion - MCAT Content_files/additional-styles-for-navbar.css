@@ -1,0 +1,74 @@
+.navbar-brand {
+  min-height: 40px !important;
+  max-height: 40px;
+  display: inherit !important;
+}
+
+.navbar-brand img {
+  vertical-align: middle !important;
+  line-height: 32px !important;
+  text-align: left !important;
+}
+
+.navbar-background {
+  background-color: #f6f9fc !important;
+  /*max-height: 64px !important;*/
+}
+
+.list-block li {
+  display: block !important;
+  width: 100%;
+}
+
+#navbarSupportedContent .navbar-nav li > a {
+  color: #087261;
+  max-height: 38px !important;
+  border: none !important;
+  text-transform: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+#navbarSupportedContent .navbar-nav .free-trial-nav-button {
+  width: 138px;
+  margin-left: 9%;
+}
+
+#navbarSupportedContent .navbar-nav .navbar-button {
+  margin-top: 0;
+  font-family: gotham, sans-serif;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+#navbarSupportedContent .navbar-nav .navbar-button a {
+  color: #087261;
+  text-transform: none !important;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
+
+#navbarSupportedContent .navbar-nav .navbar-button .trial-btn {
+  border: 1px solid;
+  border-color: #087261;
+  padding: 10px 0px;
+  width: 138px;
+  margin: 0;
+}
+
+.spark-settings-tabs .landing-legacy-tablist li {
+  display: block !important;
+  width: 100% !important;
+}
+
+.dropdown-profile img {
+  height: 30px;
+  padding: 0;
+  border: none;
+}
+
+.notifications-icon {
+  background: url(/images/new_assets/bell-green.svg) no-repeat 6px 10px !important;
+}
+
+/*# sourceMappingURL=additional-styles-for-navbar.css.map */

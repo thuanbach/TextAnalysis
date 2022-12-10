@@ -1,0 +1,6 @@
+jsonp3877({
+  "error" : "access_denied",
+  "email_confirmation_required" : false,
+  "extend_expired_access_enabled" : false,
+  "authorized_by_sso" : false
+})

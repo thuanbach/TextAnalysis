@@ -1,0 +1,37 @@
+.svq-sidelink {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  padding: 0.75rem 0.5rem 0.75rem 0.25rem; }
+  .svq-sidelink a {
+    background-image: none !important; }
+  .svq-sidelink:hover + .svq-sidenote {
+    background: #FFF9CD; }
+
+.svq-sidenote {
+  position: relative;
+  z-index: 1;
+  transition: var(--transitionTF) var(--transitionDuration);
+  width: 100%;
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  clear: both;
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 0.55rem;
+  max-width: 200px;
+  float: right; }
+  .svq-sidenote:before {
+    content: attr(data-svq-note) ". ";
+    position: absolute;
+    top: 0.5rem;
+    left: -2.25rem;
+    width: 2rem;
+    text-align: right; }
+  .svq-body-section:not(.svq-tpl-no-side) .svq-sidenote {
+    background: #FFF9CD; }
+  .svq-tpl-no-side .svq-sidenote {
+    margin-right: -280px;
+    max-width: 260px; }

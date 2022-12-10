@@ -1,0 +1,82 @@
+@media screen and (min-width: 0px) and (max-width: 199px) {
+		.left{  max-width: 15%;}
+		.middle{width: 60%;}
+		.right{width: 15%; text-align: center;}
+		.rightmost {display:none !important;}
+		.volumeContainer{display:none !important;}
+		.wrapper { background-color: #424242;}
+		.top-row{position: relative;top: 50%; margin-top: -15px;}
+   }
+   
+@media screen and (min-width: 200px) and (max-width: 249px) {
+		.left{  max-width: 15%;}
+		.middle{width: 60%;}
+		.right{width: 15%; text-align: center;}
+		.rightmost {display:none !important;}
+		.volumeContainer{display:none !important;}
+		.progressBar {  max-width: 66%;}
+		.wrapper {background-color: #424242;}
+		.top-row{position: relative;top: 50%; margin-top: -15px;}
+}
+   
+@media screen and (min-width: 250px) and (max-width: 299px) {
+		.left{  max-width: 10%;}
+		.middle{ width: 50%;}
+		.right{width: 32%;  text-align: center;}
+		.volumeContainer {width: 50%;}
+		.speed-txt {width: 95%;     background: url(/html5/images/audio-speed-background.gif) no-repeat;    background-size: 100% 25px;}
+		.rightmost {display:none !important;}
+		/* MP-7928 */
+		/* .progressBar {  max-width: 65%;} */
+		.progressBar {  max-width: 73% !important;}
+		.wrapper { background-color: #424242;}
+		.top-row{position: relative;top: 50%; margin-top: -15px;}
+}
+   
+   
+@media screen and (min-width: 300px) and (max-width: 349px) {
+		.left{  max-width: 10%;}
+		.middle{width: 45%; }
+		.right{ width: 25%;}
+		.volumeContainer {width: 50%;}
+		.speed-txt {width: 95%;     background: url(/html5/images/audio-speed-background.gif) no-repeat;    background-size: 100% 25px;}
+		.muteBtn{width: 30% !important;}
+		.progressBar {  max-width: 70%;}
+}
+   
+   
+@media screen and (min-width: 350px) and (max-width: 399px) {
+		.left{  max-width: 10%;}
+		.middle{width: 52%; }
+		.right{ width: 20%;}
+		.volumeContainer {width: 50%;}
+		.speed-txt {width: 100%;     background: url(/html5/images/audio-speed-background.gif) no-repeat;    background-size: 100% 25px;}
+		.progressBar {  max-width: 75%;}
+}
+   
+
+   
+@media screen and (min-width: 400px) and (max-width: 449px) {
+		.left{  max-width: 10%;}
+		.middle{width: 50%; }
+		.right{ width: 20%;}
+		.volumeContainer {width: 60%;}
+		.speed-txt {width: 100%;     background: url(/html5/images/audio-speed-background.gif) no-repeat;    background-size: 100% 25px;}
+		.progressBar {  max-width: 80%;}
+		
+   }
+   
+        
+@media screen and (min-width: 450px)  {
+		.left{  max-width: 10%;}
+		.middle{width: 55%; margin-left:1%; }
+		.right{ width: 20%; margin-left:1%;}
+		.volumeContainer {width: 60%;}
+		.progressBar {  max-width: 80%;}
+}
+
+ /* Handle player(hide captions and adjust remaining controls) with caption but height <65px */
+
+@media screen and (min-height: 0px) and (max-height: 64px) {
+		.rightmost {display:none !important;}
+}

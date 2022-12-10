@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<!-- saved from url=(0125)https://s0.2mdn.net/sadbundle/8074522010679997756/Dentsu_C_AeroplanReserve_ACQ_2022_Q4_ValueStory_728x90_EN_Sept21/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	<title>Dentsu - Aeroplan Acquisitions 2022 Q1</title>
+	<meta name="ad.size" content="width=728,height=90"> 
+	<link rel="stylesheet" href="./style.css">
+	<script> var clickTag = 'https://www.google.com'; </script>
+    <script src="./gsap_3.2.4_min.js"></script>
+	<script src="./jquery.min.js"></script>
+	<script src="./preloadjs_1.0.0_min.js"></script>
+<script type="text/javascript">
+    
+  (function() {
+    var MAX_URL_PARAM_LENGTH = 34;
+    var CLICK_X_URL_KEY = 'nx';
+    var CLICK_Y_URL_KEY = 'ny';
+    var CREATIVE_DIMENSIONS_KEY = 'dim';
+    var AD_URL_PARAM = '&adurl=';
+
+    var relegateNavigation = '';
+    var urlParamMap = {};
+
+    urlParamMap[CLICK_X_URL_KEY] = null;
+    urlParamMap[CLICK_Y_URL_KEY] = null;
+    urlParamMap[CREATIVE_DIMENSIONS_KEY] = null;
+
+    var handleClickTagMessage = function(e) {
+      try {
+        var eventData = JSON.parse(e.data);
+      } catch (err) {
+        return;
+      }
+      if (eventData.isInitClickTag) {
+        if (eventData.clickTags) {
+          for (var i = 0; i < eventData.clickTags.length; i++) {
+            var clkTag = eventData.clickTags[i];
+            window[clkTag.name] = clkTag.url;
+          }
+        } else if (eventData.clickTag) {
+          window.clickTag = eventData.clickTag;
+        }
+        relegateNavigation = eventData.relegateNavigation;
+      }
+    };
+
+    var storeClickCoordinates = function(e) {
+      urlParamMap[CLICK_X_URL_KEY] = Math.round(e.clientX);
+      urlParamMap[CLICK_Y_URL_KEY] = Math.round(e.clientY);
+    };
+
+    var getCreativeDimensions = function() {
+      return window.innerWidth + 'x' + window.innerHeight;
+    }
+
+    var getExitClickParams = function(e) {
+      urlParamMap[CREATIVE_DIMENSIONS_KEY] = getCreativeDimensions();
+
+      var exitParams = '';
+      for (var key in urlParamMap) {
+        exitParams += '&' + key + '=';
+        if (urlParamMap[key] !== null) {
+          exitParams += urlParamMap[key];
+        }
+      }
+      return exitParams;
+    }
+
+    var appendExitClickParams = function(url) {
+      var adUrlIndex = url.toLowerCase().indexOf(AD_URL_PARAM);
+      var paramsToBeAdded = getExitClickParams();
+      if (adUrlIndex > -1 && paramsToBeAdded.length <= MAX_URL_PARAM_LENGTH) {
+        url = url.substr(0, adUrlIndex) + paramsToBeAdded +
+          url.substr(adUrlIndex);
+      };
+      return url;
+    };
+
+    if (open.call) {
+      window.open = function(open) {
+        return function(url, name, features) {
+          url = appendExitClickParams(url);
+          if (relegateNavigation === 'parent') {
+            var message = {'clickTag': url, 'isPostClickTag': true};
+            parent.postMessage(JSON.stringify(message), '*');
+          } else {
+            var args = [url, name];
+            if (features) {
+              args.push(features);
+            }
+            open.apply(window, args);
+          }
+        };
+      }(window.open);
+    }
+
+    if (window.addEventListener) {
+      window.addEventListener(
+          'message', handleClickTagMessage, false);
+      window.addEventListener('mousedown', storeClickCoordinates, true);
+    } else {
+      window.attachEvent('onmessage', handleClickTagMessage);
+    }
+  })();
+    
+  </script></head>
+<body data-new-gr-c-s-check-loaded="14.1085.0" data-gr-ext-installed="">
+	<div id="container" style="display: block;">
+		<div class="bgmask">
+            <div class="bg imgfix" style="transform: perspective(100px) translate3d(14.5406px, -6.9542px, 0px) scale(1.1391, 1.1391); will-change: transform; transform-origin: 50% 50%;">
+                <img src="./bg.jpg" alt="Background">
+            </div>
+        </div>
+
+        <div class="blue-bg"></div>
+
+        <div class="mask">
+            <div class="sprite t1-1 t1" style="transform: perspective(100px); will-change: transform; transform-origin: 50% 50%; opacity: 0;"></div>
+            <!-- <div class='sprite t1-2 t1'></div> -->
+        </div>
+
+        <div class="sprite t2-1 t2" style="transform: perspective(100px); will-change: transform; opacity: 1;"></div>
+        
+        <div class="ef-bg" style="opacity: 0;"></div>
+        <div class="card imgfix" style="transform: perspective(100px) translate(-25px, 0px); will-change: transform; opacity: 0;"><img src="./card.png" alt=""></div>
+        <div class="sprite card-text" style="transform: perspective(100px); will-change: transform; opacity: 0;"></div>
+        
+        <canvas id="canvas"></canvas>
+
+        <div class="sprite t3-1 t3" style="transform: perspective(100px); will-change: transform; opacity: 0;"></div>
+        <div class="sprite t3-2 t3" style="transform: perspective(100px); will-change: transform; opacity: 0;"></div>
+        <div class="sprite t3-3 t3" style="transform: perspective(100px); will-change: transform; opacity: 0;"></div>
+
+        <div class="sprite t4-1 t4" style="transform: perspective(100px); will-change: transform; opacity: 0;"></div>
+        <div class="sprite t4-2 t4" style="transform: perspective(100px); will-change: transform; opacity: 0;"></div>
+        <div class="sprite t4-3 t4" style="transform: perspective(100px); will-change: transform; opacity: 0;"></div>
+        <!-- <div class='sprite t4-4 t4'></div> -->
+        
+        <div class="sprite legal1 legal" style="transform: perspective(100px); will-change: transform; opacity: 0;"></div>
+        <!-- <div class='sprite legal2'></div> -->
+        <div class="sprite logo" style="transform: perspective(100px); will-change: transform; opacity: 0;"></div>
+
+        <div class="cta imgfix" style="transform: perspective(100px) translate(-8px, 0px); will-change: transform; opacity: 0;">
+            <div class="sprite cta-text1" style="transform: perspective(100px); will-change: transform;"></div>
+            <div class="sprite cta-text2" style="transform: perspective(100px); will-change: transform;"></div>
+        </div>
+
+        <div id="border"></div>
+        <div id="clickthru"></div>
+        
+	</div>
+	<script>
+
+    //--------------preload---------------------
+    
+    function preload(arr,f) { $('<div id="preload" />').appendTo('body'); $(arr).each(function () {$('<img />').attr('src',this).appendTo('#preload').hide(); }); window.onload =function(){ f(); $('#preload').remove()} }
+    //--------------vars-------------------
+    var tl = gsap.timeline({delay: 0.5,  defaults: {duration: 0.5,ease: "none" }});
+    preload([
+        "sprite.png",
+        "bg.jpg",
+        "card.png",
+        "mask.png",
+        "shine.png"
+    ],startAnim);
+        
+    var ctx;
+    var mask = new Image();
+    var shine = new Image();
+    var canvas = document.getElementById('canvas')
+
+    function startAnim() {
+        //--------------- SET -----------------
+        gsap.set('#container', {display: 'block',delay: 0.5,});
+        gsap.set('.imgfix', {willChange: 'transform', transformPerspective: 100});
+        gsap.set('.sprite', {willChange: 'transform', transformPerspective: 100});
+        //------------ ADD EVENT --------------
+        addEvent();
+        hoverFunction();
+        setupCanvas();
+        //---------- ADD ANIMATION ------------
+        tl
+            //=========================
+            .add('Scene1')
+            .to('.bg', {duration: 10, scale:1.22, x: 23, y: -11, transformOrigin: '50% 50%', ease: 'none'}, 'Scene1')
+            .from(".t1-1", {duration: .8, scale: 1.5, y: -50, opacity: 0, transformOrigin: '50% 50%', ease: 'power1.out'}, 'Scene1')
+            // .from('.t1-2', {duration: .8, opacity: 0, ease: 'power1.out'}, 'Scene1+=1')
+
+            .add('Scene2','Scene1+=3')
+            .to('.t1-1', {duration: .6, opacity: 0, ease: 'power1.out'}, 'Scene2')
+            .from('.t2', {duration: .8, y: 5, opacity: 0, ease: 'power1.out'}, 'Scene2+=.7')
+ 
+            .add('Scene3', 'Scene2+=4')
+            .from('.ef-bg', {duration: 1, opacity: 0, ease: 'power1.inOut'}, 'Scene3')
+            .from('.logo', {duration: 1, opacity: 0, ease: 'power1.inOut'}, 'Scene3+=.3')
+            .from('.legal1', {duration: 1, opacity: 0, ease: 'power1.inOut'}, 'Scene3+=.3')
+            .from('.card', {duration: 1, opacity: 0, ease: 'power1.out'}, 'Scene3+=.7')
+            .from('.card', {duration: .7, x: -25, ease: 'power1.inOut'}, 'Scene3+=.7')
+            .to(shine, {duration: 1.2, _x: 140, onUpdate:animateShine, ease: 'power1.out'},'Scene3+=1.4')
+            .from('.t3', {duration: 1, stagger: .4, opacity: 0, ease: 'power1.out'}, 'Scene3+=1.7')
+
+            .add('Scene4', 'Scene3+=4')
+            .to('.t3', {duration: .3, opacity: 0, ease: 'power1.out'}, 'Scene4')
+            .to('.card', {duration: 1, y: -11, ease: 'power1.inOut'}, 'Scene4+=.3')
+            // .from('.legal2', {duration: 1, opacity: 0, ease: 'power1.out'}, 'Scene4+=.3')
+            .from('.card-text', {duration: 1, opacity: 0, ease: 'power1.out'}, 'Scene4+=1')
+            .from('.t4', {duration: 1, stagger: .4, opacity: 0, ease: 'power1.out'}, 'Scene4+=1')
+            .from('.cta', {duration: .8, opacity: 0, x: -8, ease: 'power1.out'},'-=.3')
+
+        //-------------------------------------
+    };
+    function setupCanvas(){
+        mask.src = 'mask.png';
+        shine.src = 'shine.png';
+        shine._x = -140;
+        ctx = canvas.getContext('2d');
+    }
+        
+    function animateShine(){
+        ctx.save();
+        ctx.drawImage(mask, 0,0);
+        ctx.globalCompositeOperation = 'source-in';
+        ctx.drawImage(shine,shine._x,-70);
+        ctx.restore();
+    } 
+
+    function addEvent() {
+        $('#clickthru').on('click', exit);
+    };
+    
+    function exit() {
+        //-----------exit guide--------------------------
+        //--adword--> ExitApi.exit();
+        //--adgear--> ADGEAR.html5.clickThrough('clickTAG');
+        //--studio--> Enabler.exit('Background Exit'); 
+        //--standard/sizemek/adword no-api--> window.open(clickTag);
+        //-----------exit--------------------------------
+        window.open(clickTag);
+    }
+    
+    function hoverFunction() {
+        $('#clickthru').on('mouseenter', function() {
+            gsap.to('.cta',{duration:.6,backgroundColor:'#fff'});
+            gsap.to('.cta-text1',{duration:.6,opacity:0});
+            gsap.to('.cta-text2',{duration:.6,opacity:1 });
+        });
+        $('#clickthru').on('mouseleave', function() {
+            gsap.to('.cta',{duration:.6,backgroundColor:'#00175a'});
+            gsap.to('.cta-text1',{duration:.6,opacity:1});
+            gsap.to('.cta-text2',{duration:.6,opacity:0});
+        });
+    }
+//-------------------------------------
+
+</script>
+
+
+
+<div id="highlighter--hover-tools" style="display: none;">
+    <div id="highlighter--hover-tools--container">
+        <div class="highlighter--icon highlighter--icon-copy" title="Copy"></div>
+        <div class="highlighter--icon highlighter--icon-change-color" title="Change Color"></div>
+        <div class="highlighter--icon highlighter--icon-delete" title="Delete"></div>
+    </div>
+</div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

@@ -1,0 +1,14 @@
+/** 
+ *  Frontend CSS File
+ *  v1.0.0
+ */
+
+.apply-instructions{
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding: 15px;
+    word-wrap: break-word;
+}
+section#apply .apply-instructions p {
+    margin: 0px;
+}
